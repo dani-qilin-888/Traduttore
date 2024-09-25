@@ -1,0 +1,87 @@
+/*  #cbf078
+    #f8f398 
+    #f7c260
+    #e46161  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   /* border&padding incorporated into element's width&height */
+}
+
+body {
+    padding: 16px;
+    font-family: "Silkscreen", sans-serif;
+    background-color: #f8f398;
+}
+
+h1 {
+    font-size: 25px;
+    color: rgb(253, 254, 236);
+    text-transform: uppercase;
+}
+
+input {
+    padding: 16px;
+    font-family: "Silkscreen", sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: rgb(253, 254, 236);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.panel {
+    background-color: #e46161;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.translation{
+    background-color: #cbf078;
+    margin-bottom: 16px;
+
+}
+
+.translation-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+}
+
+
+.translation-text {
+    position: absolute;
+    font-size: 32px;
+}
+
+.translation-flag {
+    height: 6px;
+}
+
+.controls {
+    background-color: #f7c260;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.text-input {
+    width: 100%;
+    background-color: rgb(253, 254, 236)
+}

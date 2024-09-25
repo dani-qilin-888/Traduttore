@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>       <!-- Font, CSS file, icon -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta charset="UTF-8">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style_traduttore.css">
+
+    <link rel="icon" href="icon.png">
+
+    <title>Traduttore</title>     <!-- Don't need quotation marks-->
+
+</head>
+<body>       <!-- JS file at end -->
+
+    <header class="panel">
+        <h1>Traduttore</h1>
+        <img src="icons8-earth.png" alt="logo">
+    </header>
+
+    <main>
+        <section class="panel translation">
+            <div class="translation-flag"></div>
+            <div class="translation-result">
+                <p class="translation-text">Traduzione</p>
+            </div>
+        </section>
+
+        <section class="panel controls">
+            <input class="text-input" type="text" placeholder="inserisci il testo">
+            <button class="lang-button" data-lang="en"><img src="icon-en.png" alt="en"></button>
+            <button class="lang-button" data-lang="es"><img src="icon-es.png" alt="es"></button>
+            <button class="lang-button" data-lang="fr"><img src="icon-fr.png" alt="fr"></button>
+            <button class="reset-button">❌</button>
+        </section>
+
+    </main>
+
+    <script src="script_traduttore.js"></script>
+</body>
+
+
+
+</html>
